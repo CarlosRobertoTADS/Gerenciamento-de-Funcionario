@@ -1,0 +1,10 @@
+table {
+  width: 100%;
+}
+
+.mat-fab {
+  position: absolute;
+  left: 93%;
+  margin-top:-70px;
+
+}

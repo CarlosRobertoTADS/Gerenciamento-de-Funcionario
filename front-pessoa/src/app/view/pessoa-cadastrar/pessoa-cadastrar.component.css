@@ -1,0 +1,20 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.example-container > * {
+  width: 100%;
+}
+
+.titulo{
+  margin-top: 4%;
+}
+
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+  margin-left: 90%;
+}

@@ -1,0 +1,27 @@
+
+
+<nav class= "titulo" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Cadastrar Funcionário</li>
+  </ol>
+</nav>
+
+<form [formGroup]="form" novalidate>
+
+
+<div class="example-container">
+  <mat-form-field>
+    <input matInput formControlName="name" placeholder="Nome">
+  </mat-form-field>
+
+
+
+  <mat-slide-toggle  class="example-margin"  formControlName="status"  >
+        Status
+      </mat-slide-toggle>
+      <div class="example-button-row">
+      <button mat-button color="primary" (click)="save()">Cadastrar</button>
+    </div>
+
+</div>
+</form>
